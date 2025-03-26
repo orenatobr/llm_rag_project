@@ -10,7 +10,7 @@ $ git clone <repo>
 $ cd llm_rag_project
 
 # Install poetry (if not already installed)
-$ curl -sSL https://install.python-poetry.org | python3 - --version 1.7.1
+$ curl -sSL https://install.python-poetry.org | python3 -
 
 # Install dependencies
 $ poetry install
