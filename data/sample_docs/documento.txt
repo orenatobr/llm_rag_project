@@ -1,0 +1,1 @@
+RAG (Retrieval-Augmented Generation) is a powerful technique that combines language models with context retrieval based on embeddings. It allows for more accurate, grounded responses, significantly improving generation quality.

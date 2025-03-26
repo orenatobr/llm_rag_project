@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "start-ollama",
+        "type": "shell",
+        "command": "source start_ollama.sh",
+        "problemMatcher": [],
+        "isBackground": true
+      }
+    ]
+  }

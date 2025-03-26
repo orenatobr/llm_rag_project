@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "llm-rag-project"
+version = "0.1.0"
+description = "RAG project using LLM and LangChain"
+authors = ["Renato F Pereira <orenatobr@icloud.com>"]
+readme = "README.md"
+packages = [{ include = "app" }, { include = "tests" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11.8,<4.0"
+langchain-community = "^0.2.19"
+langchain-openai = "^0.1.25"
+openai = "*"
+faiss-cpu = "*"
+python-dotenv = "*"
+pydantic = "^1.10.13"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+ruff = "*"
+black = "*"
+pre-commit = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
