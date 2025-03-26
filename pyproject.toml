@@ -13,13 +13,13 @@ langchain-openai = "^0.1.25"
 openai = "*"
 faiss-cpu = "*"
 python-dotenv = "*"
-pydantic = "^1.10.13"
+pydantic = "^2.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "*"
 ruff = "*"
 black = "*"
-pre-commit = "^5.0.0"
+pre-commit = "^4.2.0"
 
 [build-system]
 requires = ["poetry-core"]
