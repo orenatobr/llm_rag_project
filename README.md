@@ -6,7 +6,7 @@ Question-answering pipeline using local LLMs (Mistral/LLaMA2) via Ollama, contex
 
 ```bash
 # Clone the repository
-$ git clone <repo>
+$ git clone https://github.com/orenatobr/llm_rag_project
 $ cd llm_rag_project
 
 # Install poetry (if not already installed)
