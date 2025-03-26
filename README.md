@@ -10,7 +10,7 @@ $ git clone <repo>
 $ cd llm_rag_project
 
 # Install poetry (if not already installed)
-$ curl -sSL https://install.python-poetry.org | python3 -
+$ curl -sSL https://install.python-poetry.org | python3 - --version 1.7.1
 
 # Install dependencies
 $ poetry install
@@ -54,8 +54,11 @@ $ poetry run pytest
 - LangChain (core + community)
 - Mistral/LLaMA2 via Ollama
 - FAISS
-- Python 3.11+
+- Python 3.11.8+
 - Poetry, Pytest, Ruff, Black, Pre-commit
+
+## 🂡 Flashcards
+[![Visit Website](https://img.shields.io/badge/Open-Click%20Here-blue)](https://ankipro.net/shared_deck/v2_pajQbEpeeL_4961509)
 
 ---
 
